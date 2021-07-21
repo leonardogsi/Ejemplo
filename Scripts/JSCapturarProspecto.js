@@ -25,9 +25,7 @@ $().ready(function () {
     // validate the comment form when it is submitted
 
     $("#form1").validate({
-        lang: 'es', // or whatever language option you have.
-        errorClass: "﻿my-error-cl",
-        validClass: "my-valid-classPros",
+        lang: 'es', // or whatever language option you have.      
         rules: {
             cTelefono: {
                 required: true,

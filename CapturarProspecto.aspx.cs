@@ -38,6 +38,7 @@ namespace WebAppProspectos
                 Result rs = objmanProspectos.Alta(objDes.obj);
                 if (rs.IsCorrecto)
                 {
+                   
                     result = "true|Información enviada correctamente";
 
                     HttpContext.Current.Session["idProspecto"] = rs.Id;

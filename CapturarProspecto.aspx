@@ -139,7 +139,7 @@
             </div>
             <div class="row mt-3">
                 <div class="col-3">
-                    <label for="cCodigoPostal">*Código Postal</label>
+                    <label for="cCodigoPostal">*Código Postal (numérico)</label>
                 </div>
                 <div class="col-9">
                     <input id="cCodigoPostal" class="form-control" name="cCodigoPostal" required>
@@ -147,7 +147,7 @@
             </div>
             <div class="row mt-3">
                 <div class="col-3">
-                    <label for="cTelefono">*Teléfono</label>
+                    <label for="cTelefono">*Teléfono (numérico)</label>
                 </div>
                 <div class="col-9">
                     <input id="cTelefono" class="form-control" maxlength="10" name="cTelefono" required>

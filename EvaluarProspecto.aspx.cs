@@ -61,6 +61,7 @@ namespace WebAppProspectos
                 var rs = objmanProspectos.Modificar(objDes.obj);
                 if (rs.IsCorrecto)
                 {
+                   
                     if (objDes.obj.Estatus == "Autorizado")
                     {
                         result = "true|Prospecto autorizado";
