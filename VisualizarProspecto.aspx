@@ -87,7 +87,7 @@
             </div>
              <div class="row mt-3">
                 <div class="col-3">
-                    <label runat="server" id="lblObservaciones" for="cObservaciones">RFC</label>
+                    <label runat="server" id="lblObservaciones" for="cObservaciones">Observaciones</label>
                 </div>
                 <div class="col-9">
                     <textarea runat="server" class="form-control" readonly="readonly" id="cObservaciones" name="cObservaciones" required />
